@@ -12,15 +12,9 @@ import Chart from '../components/chart';
      return (
      <tr key = {name}>
      <td>{name}</td>
-     <td>
-        <Chart data = {temps} color = "orange" units = "C" />
-     </td>
-     <td>
-        <Chart data = {pressures} color = "green" units = "hPa" />
-     </td>
-     <td>
-        <Chart data = {humidities} color = "blue" units = "%" />
-     </td>
+     <td><Chart data = {temps} color = "orange" units = "C" /></td>
+     <td>  <Chart data = {pressures} color = "green" units = "hPa" /> </td>
+     <td><Chart data = {humidities} color = "blue" units = "%" /></td>
      </tr>
      );
    }
@@ -33,7 +27,7 @@ import Chart from '../components/chart';
       <th>City</th>
       <th>Temperature (C)</th>
       <th>Pressure (hPa)</th>
-      <th>Humidity (%)</th>
+      <th>Humidity (% )</th>
       </tr>
       </thead>
       <tbody>
